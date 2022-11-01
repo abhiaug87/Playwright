@@ -16,7 +16,7 @@
   "editor.formatOnPaste": true,
   "html.format.maxPreserveNewLines": 300,
   "editor.wordWrap": "on",
-  "cucumberautocomplete.steps": "../Playwright/Steps/*.ts",
+  "cucumberautocomplete.steps": "../Playwright/step_definitions/*.ts",
   "cucumberautocomplete.syncfeatures": "../Features/*.feature",
   "cucumberautocomplete.strictGherkinCompletion": true,
   "window.zoomLevel": 0,
