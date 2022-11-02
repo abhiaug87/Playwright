@@ -4,7 +4,7 @@ This is a UI testing framework created using Playwright, Cucumber & Typescript. 
 
 Features Folder: Contains specflow file with the BDD user scenarios.
 
-Steps Folder: This contains the step definitions class file which has the logic for the user scenarios mentioned in the specflow file. This folder also has the base class whose properties are inherited in the step definitions section.
+Support Folder: This contains the step definitions class file which has the logic for the user scenarios mentioned in the specflow file. This folder also has the base class whose properties are inherited in the step definitions section.
 
 PageObjects Folder: This contains the page objects class file which contains all the element ids that are used in the project.
 
@@ -50,4 +50,5 @@ B. Setup & Configuration:
   "editor.renderControlCharacters": true,
   "launch": {}
 } -->
-7. Create a file 'world.ts' under the step_definitions folder
+7. Create a file 'world.ts' under the support folder
+8. Create a file cucumber.js under the parent folder

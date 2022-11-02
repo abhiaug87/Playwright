@@ -1,4 +1,4 @@
-let options = ["--require-module ts-node/register", "--require ./support/*.steps.ts", "--format progress"].join(" ");
+let options = ["--require-module ts-node/register", "--require ./Support/*.steps.ts", "--format progress"].join(" ");
 
 let run_features = ["./Features/", options].join(" ");
 
