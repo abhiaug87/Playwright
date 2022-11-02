@@ -19,6 +19,8 @@ B. Setup & Configuration:
 4. Run the following commands:
   a.  npm init playwright@latest --yes -- --quiet --browser=chromium --browser=firefox --browser=webkit --gha
   b.  npm i @cucumber/cucumber
+  c.  npm install ts-node --save-dev
+  d.  npm install playwright --save-dev
 5. Uncomment the code under "/* Test against mobile viewports. */" section of "playwright.config.ts" file to enable testing on mobile emulators
 6. Add the following code block under "Settings > Workspace > json file" of your VS code to allow cucumber to understand where your steps file exists in the code base
 <!-- {
@@ -48,3 +50,4 @@ B. Setup & Configuration:
   "editor.renderControlCharacters": true,
   "launch": {}
 } -->
+7. Create a file 'world.ts' under the step_definitions folder
