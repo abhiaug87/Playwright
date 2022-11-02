@@ -41,7 +41,7 @@ B. Setup & Configuration:
   "editor.formatOnPaste": true,
   "html.format.maxPreserveNewLines": 300,
   "editor.wordWrap": "on",
-  "cucumberautocomplete.steps": "../{folder name}/Steps/*.ts",
+  "cucumberautocomplete.steps": "../{folder name}/Support/*.steps.ts",
   "cucumberautocomplete.syncfeatures": "../Features/*.feature",
   "cucumberautocomplete.strictGherkinCompletion": true,
   "window.zoomLevel": 0,
